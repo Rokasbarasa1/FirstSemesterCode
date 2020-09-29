@@ -1,0 +1,95 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-viaclub {
+    /* Background */
+    background-image: linear-gradient(150deg, lightblue 40%, white 60%);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    position: fixed;
+    top: auto;
+    width: 100%;
+}
+
+.toplogo{
+    width: 50px;
+}
+
+.container {
+    margin-top: 100px; 
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* players.html */
+playercarousel {
+    height: 200px;
+}
+
+.profile {
+    width: 300px;
+    height: 200px;
+}
+
+/* matches.html */
+.logo{
+    width: 50px;
+    height: auto; 
+}
+.logoSmall{
+    width: 55px;
+    height: auto;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mach{
+    background-color: aliceblue;
+    border: 1px solid #d8ddff; 
+}
+.goodBox{
+    margin: 0px;
+}
+.wide{
+    width: 30%;
+    overflow: hidden;
+}
+
+/* index.html */
+.frontlogo{
+    width: 55px;
+    height: auto;
+}
+
+.center{
+    text-emphasis: bold;
+    text-align: center;
+}
+.match{
+    text-align: center;
+}
+
+#match {
+    background-image: url("../images/football-pitch");
+}
+
+.carousel-inner h3, .carousel-inner p{
+    height: 45px;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    margin: 0em;
+}

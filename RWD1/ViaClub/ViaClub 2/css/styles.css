@@ -1,0 +1,66 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.bg-viaclub { /* Background */
+   /* The bg used */
+  background-image: linear-gradient(150deg, lightblue 40%, white 60%);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  background-attachment: fixed;  
+}
+}
+.navbar{
+    position: fixed;
+    top: auto;
+    width: 100%;
+    z-index: 1;
+}
+.center{
+    text-align: center;
+    text-emphasis: bold;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mach{
+    background-color: white;
+    border: 1px solid #d8ddff; 
+}
+.goodBox{
+    margin: 0px;
+}
+.wide{
+    width: 30%;
+    overflow:hidden;
+}
+
+
+
+.logo {
+    width: 100px;
+} 
+
+.container {
+    margin-top: 150px; 
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-lg {
+    background-color: #AAAAAA;
+    border: 1px solid black;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+}
